@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(91, 192, 205);
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 15px 50px;
+    margin: 30px 0px;
+    font-size: 1.2rem;
+    background-color: rgb(205, 91, 158);
+    border: none;
+    color: #fff;;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+span {
+    color:rgb(59, 59, 59);
+}
+
+.lt {
+    text-align: left;
+}
+
+.rt {
+    text-align: right;
+}
+
+.ct {
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+}
+body, html {
+    height: 100%;
+}
+section {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 50px 45px;
+    height: 100%;
+}
+
+#hero-sn {
+    background-color: rgb(31, 31, 31);
+    background-image: linear-gradient(#212121 1.5px, transparent 1.5px, transparent calc(100% - 1.5px), #212121 calc(100% - 1.5px)), linear-gradient(90deg, #212121 1.5px, transparent 1.5px, transparent calc(100% - 1.5px), #212121 calc(100% - 1.5px));
+    background-size: 20% 20%;
+    height: 85%;
+    overflow: hidden;
+}
+
+#hero-sn .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+}
+
+.header .wrapper{
+    text-align: center;
+    padding: 30px 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+nav ul li a:hover {
+    color: rgb(141, 65, 109);
+    transition: 0.3s
+}
+
+.active {
+    color: rgb(205, 91, 158);
+    border-top: 2px dashed rgb(205, 91, 158);
+}
+
+.intro {
+}
+
+.intro h1{
+    font-size: 4.7rem;
+    color: rgb(91, 192, 205);
+}
+
+.intro h3{
+    font-size: 2rem;
+    color: rgb(205, 91, 158);
+    margin-top: 10px;
+}
+
+.intro p{
+    font-size: 1rem;
+    color: rgb(141, 195, 202);
+}
+
+.sn-title {
+    font-size: 4rem;
+    margin-bottom: 20px; 
+}
+
+.sn-text {
+    color:#212121;
+}
+
+#sn-2 {
+    
+    padding-bottom: 40px;
+}
+
+#sn-2 img{
+    height: 180px;
+    border-radius: 100%;
+    border: 1px #212121 solid;
+}
+
+#sn-2 p{
+    max-width: 600px;
+}
+
+#sn-2 .body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.skill {
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+}
+
+.skill h3{
+    margin-top: 20px;
+    text-align: center;
+    color: #212121;
+}
+.skill img{
+    height: 150px;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: #212121;
+    color: #fff;
+}
+
+#sn-4 {
+    background-color: rgb(59, 59, 59);
+}
+
+#sn-5 .wrapper{
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+input:first-child {
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        text-align: center;
+    }
+    
+    .sn-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .intro {
+        text-align: center;
+    }
+
+    #sn-2 .body {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .grid-container {
+        display: inline-block;
+    }
+
+    .skill {
+        padding: 0px;
+        margin-top: 80px;
+        display: block;
+    }
+
+    #sn-2 img {
+        margin-bottom: 40px;
+    }
+}
